@@ -1,0 +1,45 @@
+.hero-section {
+  background-image: url('../images/finalbackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+}
+
+.overlay {
+  
+  padding: 20px;
+  text-align: center;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  
+}
+
+.cta-button {
+  background-color: #004080;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 12rem;
+  height: 3rem;
+}
+
+.cta-button:hover {
+  background-color: #00264d;
+}
