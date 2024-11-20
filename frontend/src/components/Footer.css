@@ -1,0 +1,98 @@
+.footer {
+  background-color: #004a63;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  font-family: "Arial", sans-serif;
+  position: relative; /* Added this line to allow absolute positioning of children */
+}
+
+.footer-container {
+  max-width: 1200px; /* Restricts the width for better centering */
+  margin: 0 auto; /* Centers content horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer-logo-content {
+  display: flex;
+  align-items: center; /* Aligns the logo image and text horizontally */
+}
+
+.footer-logo-img {
+  height: 100px;
+  margin-right: 15px; /* Adds space between image and text */
+}
+
+.footer-logo-text {
+  font-size: 2rem; /* Increased font size for emphasis */
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: Sour+Gummy;
+}
+
+.footer-tagline {
+  font-size: 2.2rem; /* Increased font size */
+  margin-bottom: 30px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+.footer-contact {
+  margin: 20px 0;
+}
+
+.footer-contact p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Spaces icons evenly */
+}
+
+.icon-link img {
+  height: 40px;
+  width: 40px;
+  transition: transform 0.3s ease; /* Adds hover animation */
+}
+
+.icon-link img:hover {
+  transform: scale(1.2); /* Enlarges icon slightly on hover */
+}
+
+/* Align the .footer-contact-details to the left */
+.footer-contact-details {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns the contact details to the left */
+  justify-items: start; /* Align the contact info left */
+  position: absolute; /* Position it outside of the main flex layout */
+  bottom: 20px; /* Places it at the bottom of the footer */
+  left: 20px; /* Aligns it to the left side of the footer */
+}
+
+.footer-contact-details img {
+  height: 25px;
+  margin-right: 10px;
+  vertical-align: middle; /* Aligns with text */
+}
+
+.footer-contact-details p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; /* Reduced margin between items */
+}
+
