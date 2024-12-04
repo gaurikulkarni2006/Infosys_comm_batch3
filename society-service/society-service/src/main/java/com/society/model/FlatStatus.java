@@ -1,5 +1,5 @@
 package com.society.model;
 
 public enum FlatStatus {
-    OCCUPIED, VACANT, MAINTENANCE
+    OCCUPIED, VACANT, MAINTENANCE,AVAILABLE
 }
